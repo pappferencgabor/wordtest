@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English words</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Filename: <span id="filename">none</span></h2>
+        <h2>Words count: <span id="wordscount">none</span></h3>
+        <input type="file" name="fileinput" id="fileinput" style="display: none;">
+        <input type="button" value="Add file" id="fileupload">
+        <input type="button" value="Save data" id="datasave" onclick="saveData()" style="visibility: hidden;">
+        <br>
+    </div>
+
+    <!--<input type="button" value="Load JSON", id="jsonload" onclick="readJSON()">
+    -->
+    <div id="content" style="visibility: hidden;">
+        <div id="uncategorized" class="category"></div>
+
+        <div id="learned" class="category"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
