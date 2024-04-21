@@ -58,7 +58,7 @@ function loadUncatWords() {
     const divelem = document.createElement("div")
 
     const h1elem = document.createElement("h1")
-    h1elem.innerHTML = `uncategorized (${uncatWords.length})`
+    h1elem.innerHTML = `TODO (${uncatWords.length})`
     h1elem.style.fontSize = "24px"
     divelem.appendChild(h1elem)
 
@@ -91,7 +91,7 @@ function loadLearnedWords() {
     const divelem = document.createElement("div")
 
     const h1elem = document.createElement("h1")
-    h1elem.innerHTML = `learned (${learnedWords.length})`
+    h1elem.innerHTML = `DONE (${learnedWords.length})`
     h1elem.style.fontSize = "24px"
     divelem.appendChild(h1elem)
 
